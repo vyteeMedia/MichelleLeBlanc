@@ -1,0 +1,202 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- #BeginTemplate "default.dwt" -->
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+
+<title>Michelle LeBlanc</title>
+<link href="recursos/css/reset.css" rel="stylesheet" type="text/css" />
+<link href="recursos/css/main.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+
+<div id="siteWrapper">
+	<div id="header">
+		<div id="logoHeader">
+		<img src="recursos/img/tituloLogo2.png" />
+		</div>
+		<div id="languajeNav">
+			<a href="login.html">Login</a>
+			<a href="">Español</a>
+			<a href="">English</a>
+			<a href="">Francais</a>
+		</div>
+	</div>
+	<div id="mainNav">
+		<div style="float:left;">
+			<a href="index.html">Inicio</a>
+			<a href="nosotros.html">Nosotros</a>
+			<a href="materiales.html">Materiales</a>
+			<a href="ofertas.html">Ofertas</a>
+			<a href="contacto.html">Contáctenos</a>
+		</div>
+		<div id="linkCatalogo">
+			<img src="recursos/img/iconoCatalogo.png" /><a href="catalogo.html">Visite nuestro catálogo</a>
+		</div>
+		<div class="clear"></div>
+	</div>
+	
+	<div id="subNav">
+		<a href="">Sábanas</a>
+		<a href="">Toallas</a>
+		<a href="">Salidas de Baño</a>
+		<a href="">Manteles</a>
+		<a href="">Cubrecamas</a>
+		<a href="">Mantas</a>
+		<a href="" style="margin:0px;">Toallas</a>
+	</div>
+	
+	<div id="mainContent">
+	<!-- #BeginEditable "Contenido principal" -->
+	
+	<div id="paddingContent">
+		<h1>Gestion del Catálogo > <span style="font-size:25px;">Nuevo Producto</span></h1>
+		<div id="dashboardContentNuevaOferta">
+			<form>
+				<div class="columnaIzquierdaNuevaOferta">
+					<div class="campo">
+						<p>Titulo del Producto:</p><input type="text" name="addNuevoProductoTitulo"/>
+						<div class="clear"></div>
+					</div>
+					<div class="campo">
+						<p>Codigo:</p><input type="text" name="addNuevoProductoCodigo"/>
+						<div class="clear"></div>
+					</div>
+					<div class="campo">
+						<p>Descripcion:</p><textarea style="height: 94px;width: 220px;" name="addNuevoProductoDescripcion"></textarea>
+						<div class="clear"></div>
+					</div>
+					<div class="campo">
+						<p>Imagen:</p><input type="file" name="addNuevoProductoDescripcion" />
+						<div class="clear"></div>
+					</div>
+					<div class="campo">
+						<p>Moneda:</p><p style="width:60px;">Soles</p><input type="radio" name="addNuevoProductoSelectMonedaSoles"/>
+						<p style="width:80px;">Dolares</p><input type="radio" name="addNuevoProductoSelectMonedaDolares"/>
+						<div class="clear"></div>
+                </div>
+                <div class="campo">
+						<p>Precio Total:</p><input type="text" name="addNuevoProductoPrecioTotal"/>
+						<div class="clear"></div>
+					</div>
+					<div class="campo">
+						<p>Categoria:</p>
+						<select style="width:226px;" name="addNuevoProductoSelectCategoria">
+							<option value="Sábanas">Sabanas</option>
+							<option value="Toallas">Toallas</option>
+							<option value="Salidas de Baño">Salidas de Baño</option>
+							<option value="Manteles">Manteles</option>
+							<option value="Cubrecamas">Cubrecamas</option>
+							<option value="Mantas">Mantas</option>
+							<option value=Toallas">Toallas</option>
+						</select>						
+						<div class="clear"></div>
+					</div>	
+				</div>
+				<div class="columnaDerechaNuevaOferta">
+					<div class="campo">
+						<input type="button" value="Agregar Item" style="margin-left:25%;" name="addNuevoProductoAddItem"/>
+						<div class="clear"></div>
+					</div>
+					<div class="item"><!--Item-->
+						<div class="campo">
+							<p style="width:100px;">Item1:</p><input type="text" name="addNuevoProductoAddItem1"/>
+							<div class="clear"></div>
+							<p style="width:100px;">Precio Item1 (opcional):</p><input type="text" name="addNuevoProductoAddPrecioItem1"/>
+							<div class="clear"></div>
+						</div>
+						<div class="eliminarItem">
+							<input type="checkbox" name="addNuevoProductoDelItem1"/>
+							<p>(eliminar Item)</p>
+						</div>
+					</div><!--Item-->
+					<div class="item"><!--Item-->
+						<div class="campo">
+							<p style="width:100px;">Item2:</p><input type="text" name="addNuevoProductoAddItem2"/>
+							<div class="clear"></div>
+							<p style="width:100px;">Precio Item1 (opcional):</p><input type="text" name="addNuevoProductoAddPrecioItem2"/>
+							<div class="clear"></div>
+						</div>
+						<div class="eliminarItem">
+							<input type="checkbox" name="addNuevoProductoDelItem2"/>
+							<p>(eliminar Item)</p>
+						</div>
+					</div><!--Item-->	
+					<div class="item"><!--Item-->
+						<div class="campo">
+							<p style="width:100px;">Item3:</p><input type="text" name="addNuevoProductoAddItem3"/>
+							<div class="clear"></div>
+							<p style="width:100px;">Precio Item1 (opcional):</p><input type="text" name="addNuevoProductoAddPrecioItem2"/>
+							<div class="clear"></div>
+						</div>
+						<div class="eliminarItem">
+							<input type="checkbox" name="addNuevoProductoDelItem2"/>
+							<p>(eliminar Item)</p>
+						</div>
+					</div><!--Item-->	
+					<div class="item"><!--Item-->
+						<div class="campo">
+							<p style="width:100px;">Item4:</p><input type="text" name="addNuevoProductoAddItem4"/>
+							<div class="clear"></div>
+							<p style="width:100px;">Precio Item1 (opcional):</p><input type="text" name="addNuevoProductoAddPrecioItem3"/>
+							<div class="clear"></div>
+						</div>
+						<div class="eliminarItem">
+							<input type="checkbox" name="addNuevoProductoDelItem3"/>
+							<p>(eliminar Item)</p>
+						</div>
+					</div><!--Item-->
+					<div class="faltaAlgunCampo">
+						<p class="error" style="color:white;text-align:center;">El campo (nombre de campo) esta Vacio.</p>
+					</div>							
+				</div>
+				<div class="clear"></div>
+				<div class="campo">
+					<input type="submit" style="float:right;margin-right:11%;" value="Agregar nuevo producto" name="addNuevoProductoEnviar"/>
+					<div class="clear"></div>
+				</div>
+			</form>
+		</div>
+	</div>
+	
+	
+	<!-- #EndEditable -->
+	</div>
+	<div id="footer">
+		<div id="vytee">
+		</div>
+		<div id="footerContent">
+			<div id="contactInfoFooter">
+				<p id="telefonoFooter">Teléfono:998 584 445</p>
+				<p>info@michelleleblanc.com</p>
+			</div>
+			<div id="companyCopyright">
+				<p>&copy;Michelle Le Blanc</p>
+			</div>
+			<div id="mainNavFooter">
+				<a href="index.html">Inicio</a>
+				<a>-</a>
+				<a href="nosotros.html">Nosotros</a>
+				<a>-</a>
+				<a href="materiales.html">Materiales</a>
+				<a>-</a>
+				<a href="contacto.html">Contáctenos</a>
+				<a>-</a>
+				<a href="">Catálogo</a>
+
+			</div>
+			
+			<div class="clear"></div>
+		</div>
+	</div>
+</div>
+
+</body>
+
+<!-- #EndTemplate -->
+
+</html>

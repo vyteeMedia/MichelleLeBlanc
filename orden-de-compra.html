@@ -1,0 +1,179 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- #BeginTemplate "default.dwt" -->
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+
+<title>Michelle LeBlanc</title>
+<link href="recursos/css/reset.css" rel="stylesheet" type="text/css" />
+<link href="recursos/css/main.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+
+<div id="siteWrapper">
+	<div id="header">
+		<div id="logoHeader">
+		<img src="recursos/img/tituloLogo2.png" />
+		</div>
+		<div id="languajeNav">
+			<a href="login.html">Login</a>
+			<a href="">Español</a>
+			<a href="">English</a>
+			<a href="">Francais</a>
+		</div>
+	</div>
+	<div id="mainNav">
+		<div style="float:left;">
+			<a href="index.html">Inicio</a>
+			<a href="nosotros.html">Nosotros</a>
+			<a href="materiales.html">Materiales</a>
+			<a href="ofertas.html">Ofertas</a>
+			<a href="contacto.html">Contáctenos</a>
+		</div>
+		<div id="linkCatalogo">
+			<img src="recursos/img/iconoCatalogo.png" /><a href="catalogo.html">Visite nuestro catálogo</a>
+		</div>
+		<div class="clear"></div>
+	</div>
+	
+	<div id="subNav">
+		<a href="">Sábanas</a>
+		<a href="">Toallas</a>
+		<a href="">Salidas de Baño</a>
+		<a href="">Manteles</a>
+		<a href="">Cubrecamas</a>
+		<a href="">Mantas</a>
+		<a href="" style="margin:0px;">Toallas</a>
+	</div>
+	
+	<div id="mainContent">
+	<!-- #BeginEditable "Contenido principal" -->
+	
+	<div id="paddingContent">
+		<h1 style="margin-bottom:20px;">Orden de Compra</h1>
+		<p>Esta es su orden de compra, una vez que termine de elegir los productos que desee, puede enviarnos su orden de compra por correo electronico.</p>
+			<div id="itemsOrdenDeCompra">
+				<div id="cabeceraItemsOrdenDecompra">
+					<div class="campo">
+						<p>Producto</p><p>Codigo</p><p>Cantidad</p><p>Precio</p><p>Eliminar</p>
+					</div>
+					<div class="clear"></div>
+				</div>
+				<div class="filaDatosProductoOrdenDeCompra">
+					<p>((Nombre del producto))</p>
+					<p>#XXXXXX</p>
+					<select>
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5</option>
+						<option>6</option>
+						<option>7</option>
+						<option>8</option>
+						<option>9</option>
+						<option>10</option>
+						<option>11</option>
+						<option>12</option>
+					</select>
+					<p>((Precio Total))</p><p>(eliminar de orden)</p>
+					<div class="clear"></div>
+				</div>
+			
+			</div>
+			<div>
+				<p style="float:right;padding:10px 0px; border-top:1px solid #896B5D;border-bottom:1px solid #896B5D;width:100%;" >Seguir comprando</p>
+				<div class="clear"></div>
+			</div>
+			<form id="datosClienteOrdenDeCompra">
+				<div class="campo">
+					<p>Nombres y Apellidos:</p><input type="text"  name="ODCNombresYApellidos"/>
+					<div class="clear"></div>
+				</div>
+				<div class="campo">
+					<p>Correo electrónico: </p><input type="text" name="ODCCorreoElectronico"/>
+					<div class="clear"></div>
+				</div>
+				<div class="campo">
+					<p>N* Pasaporte o Documento de Identidad</p><input type="text" name="ODCPasaporteODNI"/>
+					<div class="clear"></div>
+				</div>
+				<div class="campo">
+					<p>Dirección:</p><input type="text" name="ODCDireccion"/>
+					<div class="clear"></div>
+				</div>
+				<div class="campo">
+					<p>Número de Tarjeta:</p><input type="text" name="ODCNumeroDeTarjeta"/>
+					<div class="clear"></div>
+				</div>
+				<div class="campo">
+					<p>Elegir Tarjeta:</p>
+					<select style="width:16.8%;" name="ODCSelectTarjeta">
+						<option value="Visa">Visa</option>
+						<option value="Master Card">Master Card</option>
+						<option value="American Express">American Express</option>
+					</select>
+					<div class="clear"></div>
+				</div>
+				<div class="campo">
+					<p>Fecha de Expiración de Tarjeta:</p><input type="text" name="ODCFechaExpiracionTarjeta"/>
+					<div class="clear"></div>
+				</div>
+				<div id="enviarOrden">
+					<p style="font-size: 12px;margin: 5px 8px 0 0;text-align: center;">Todos los campos son obligatorios.</p>
+					<button style="  float: right;
+		   							 height: 30px;
+		  							 margin: 5px 37px 0 0;
+		   							 width: 200px;" name="ODCEnviar"
+		   			type="submit">Enviar orden de compra</button>
+		   			<div class="clear"></div>
+		   			<p class="error" >El campo (nombre de campo) esta vacio</p>
+					<div class="clear"></div>
+				</div>
+	
+	
+			</form>
+		<div class="clear"></div>
+	</div>
+	
+	
+	<!-- #EndEditable -->
+	</div>
+	<div id="footer">
+		<div id="vytee">
+		</div>
+		<div id="footerContent">
+			<div id="contactInfoFooter">
+				<p id="telefonoFooter">Teléfono:998 584 445</p>
+				<p>info@michelleleblanc.com</p>
+			</div>
+			<div id="companyCopyright">
+				<p>&copy;Michelle Le Blanc</p>
+			</div>
+			<div id="mainNavFooter">
+				<a href="index.html">Inicio</a>
+				<a>-</a>
+				<a href="nosotros.html">Nosotros</a>
+				<a>-</a>
+				<a href="materiales.html">Materiales</a>
+				<a>-</a>
+				<a href="contacto.html">Contáctenos</a>
+				<a>-</a>
+				<a href="">Catálogo</a>
+
+			</div>
+			
+			<div class="clear"></div>
+		</div>
+	</div>
+</div>
+
+</body>
+
+<!-- #EndTemplate -->
+
+</html>

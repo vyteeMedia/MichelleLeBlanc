@@ -1,0 +1,192 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- #BeginTemplate "default.dwt" -->
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+
+<title>Michelle LeBlanc</title>
+<link href="recursos/css/reset.css" rel="stylesheet" type="text/css" />
+<link href="recursos/css/main.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+
+<div id="siteWrapper">
+	<div id="header">
+		<div id="logoHeader">
+		<img src="recursos/img/tituloLogo2.png" />
+		</div>
+		<div id="languajeNav">
+			<a href="login.html">Login</a>
+			<a href="">Español</a>
+			<a href="">English</a>
+			<a href="">Francais</a>
+		</div>
+	</div>
+	<div id="mainNav">
+		<div style="float:left;">
+			<a href="index.html">Inicio</a>
+			<a href="nosotros.html">Nosotros</a>
+			<a href="materiales.html">Materiales</a>
+			<a href="ofertas.html">Ofertas</a>
+			<a href="contacto.html">Contáctenos</a>
+		</div>
+		<div id="linkCatalogo">
+			<img src="recursos/img/iconoCatalogo.png" /><a href="catalogo.html">Visite nuestro catálogo</a>
+		</div>
+		<div class="clear"></div>
+	</div>
+	
+	<div id="subNav">
+		<a href="">Sábanas</a>
+		<a href="">Toallas</a>
+		<a href="">Salidas de Baño</a>
+		<a href="">Manteles</a>
+		<a href="">Cubrecamas</a>
+		<a href="">Mantas</a>
+		<a href="" style="margin:0px;">Toallas</a>
+	</div>
+	
+	<div id="mainContent">
+	<!-- #BeginEditable "Contenido principal" -->
+	
+	<div id="paddingContent">
+		<h1>Gestion de las ofertas > <span style="font-size:25px;">Nueva Oferta</span></h1>
+		<div id="dashboardContentNuevaOferta">
+			<form>
+				<div class="columnaIzquierdaNuevaOferta">
+					<div class="campo">
+						<p>Titulo de la oferta:</p><input type="text" name="addNuevaOfertaTitulo" />
+						<div class="clear"></div>
+					</div>
+					<div class="campo">
+						<p>Codigo:</p><input type="text"  name="addNuevaOfertaCodigo" />
+						<div class="clear"></div>
+					</div>
+					<div class="campo">
+						<p>Descripcion:</p><textarea style="height: 94px;width: 220px;" name="addNuevaOfertaDescripcion"></textarea>
+						<div class="clear"></div>
+					</div>
+					<div class="campo">
+						<p>Imagen:</p><input type="file" name="addNuevaOfertaImagen"/>
+						<div class="clear"></div>
+					</div>
+					<div class="campo">
+						<p>Moneda:</p><p style="width:60px;">Soles</p><input type="radio" name="addNuevaOfertaSelectMonedaSoles"/>
+						<p style="width:80px;">Dolares</p><input type="radio" name="addNuevaOfertaSelectMonedaDolares" />
+						<div class="clear"></div>
+					</div>	
+					<div class="campo">
+						<p>Precio Total:</p><input type="text" name="addNuevaOfertaPrecioTotal"/>
+						<div class="clear"></div>
+					</div>	
+				</div>
+				<div class="columnaDerechaNuevaOferta">
+					<div class="campo">
+						<input type="button" value="Agregar Item" style="margin-left:25%;" name="addNuevaOfertaAddItem"/>
+						<div class="clear"></div>
+					</div>
+					<div class="item"><!--Item-->
+						<div class="campo">
+							<p style="width:100px;">Item1:</p><input type="text" name="addNuevaOfertaItem1"/>
+							<div class="clear"></div>
+							<p style="width:100px;">Precio Item1 (opcional):</p><input type="text" name="addNuevaOfertaAddPrecioItem1"/>
+							<div class="clear"></div>
+						</div>
+						<div class="eliminarItem">
+							<input type="checkbox" name="addNuevaOfertaDelItem1"/>
+							<p>(eliminar Item)</p>
+						</div>
+					</div><!--Item-->
+					<div class="item"><!--Item-->
+						<div class="campo">
+							<p style="width:100px;">Item2:</p><input type="text" name="addNuevaOfertaItem2"/>
+							<div class="clear"></div>
+							<p style="width:100px;">Precio Item1 (opcional):</p><input type="text" name="addNuevaOfertaAddPrecioItem2"/>
+							<div class="clear"></div>
+						</div>
+						<div class="eliminarItem">
+							<input type="checkbox" name="addNuevaOfertaDelItem2"/>
+							<p>(eliminar Item)</p>
+						</div>
+					</div><!--Item-->
+					<div class="item"><!--Item-->
+						<div class="campo">
+							<p style="width:100px;">Item3:</p><input type="text" name="addNuevaOfertaItem3"/>
+							<div class="clear"></div>
+							<p style="width:100px;">Precio Item1 (opcional):</p><input type="text" name="addNuevaOfertaAddPrecioItem3"/>
+							<div class="clear"></div>
+						</div>
+						<div class="eliminarItem">
+							<input type="checkbox" name="addNuevaOfertaDelItem3"/>
+							<p>(eliminar Item)</p>
+						</div>
+					</div><!--Item-->
+					<div class="item"><!--Item-->
+						<div class="campo">
+							<p style="width:100px;">Item4:</p><input type="text" name="addNuevaOfertaItem4"/>
+							<div class="clear"></div>
+							<p style="width:100px;">Precio Item1 (opcional):</p><input type="text" name="addNuevaOfertaAddPrecioItem4"/>
+							<div class="clear"></div>
+						</div>
+						<div class="eliminarItem">
+							<input type="checkbox" name="addNuevaOfertaDelItem4"/>
+							<p>(eliminar Item)</p>
+						</div>
+					</div><!--Item-->
+
+
+
+					<div class="faltaAlgunCampo">
+						<p class="error" style="color:white;text-align:center;">El campo (nombre de campo) esta Vacio.</p>
+					</div>							
+				</div>
+				<div class="clear"></div>
+				<div class="campo">
+					<input type="submit" style="float:right;margin-right:11%;" value="Agregar nueva oferta" name="addNuevaOfertaEnviar"/>
+					<div class="clear"></div>
+				</div>
+			</form>
+		</div>
+	</div>
+	
+	
+	<!-- #EndEditable -->
+	</div>
+	<div id="footer">
+		<div id="vytee">
+		</div>
+		<div id="footerContent">
+			<div id="contactInfoFooter">
+				<p id="telefonoFooter">Teléfono:998 584 445</p>
+				<p>info@michelleleblanc.com</p>
+			</div>
+			<div id="companyCopyright">
+				<p>&copy;Michelle Le Blanc</p>
+			</div>
+			<div id="mainNavFooter">
+				<a href="index.html">Inicio</a>
+				<a>-</a>
+				<a href="nosotros.html">Nosotros</a>
+				<a>-</a>
+				<a href="materiales.html">Materiales</a>
+				<a>-</a>
+				<a href="contacto.html">Contáctenos</a>
+				<a>-</a>
+				<a href="">Catálogo</a>
+
+			</div>
+			
+			<div class="clear"></div>
+		</div>
+	</div>
+</div>
+
+</body>
+
+<!-- #EndTemplate -->
+
+</html>

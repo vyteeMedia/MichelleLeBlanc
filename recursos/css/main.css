@@ -1,0 +1,763 @@
+﻿
+
+/* Estilos generales */
+
+p.error {
+	margin-top:10px;
+	background-color:#ED7E5C;
+	color:white;
+	padding:5px;
+	border-top:1px solid #FFB39C; 
+	border-right:1px solid #896B5D; 
+	border-bottom:1px solid #896B5D; 
+	border-left:1px solid #FFB39C;
+				
+}
+
+/* eston son los estilos de la plantilla principal ( headers, menus de navegacion principales, caja de contenido principal( lo editable) y footer) */
+
+.campo {
+	display:block; width:100%;
+}
+
+.campo input{
+	float:left;
+}
+
+.campo p{
+	float:left; display:block;
+}
+
+.campo img {
+	display:block; float:left;
+}
+
+
+body {
+	background-color:#FFFBF5;
+}
+
+.clear {
+	clear:both;
+}
+
+#siteWrapper {
+	width:1000px; margin-left:auto; margin-right:auto;
+}
+
+#header {
+	width:1000px; height:96px;background-image:url('../img/upHeaderBG4.png');background-repeat:repeat-x;
+}
+
+
+
+#logoHeader  {
+	float:left;
+}
+
+
+#logoHeader img {
+	margin: 10px 0 0 5px;
+    width: 430px;}
+		
+		
+#languajeNav {
+	float: right;
+    margin: 12px 15px 0 0;
+}
+
+#languajeNav a {
+	display:block;font-size:11px;font-family:Arial;color:white; text-decoration:none; letter-spacing:2px;margin-bottom:10px;
+}
+
+#languajeNav a:visited {
+	display:block;font-size:11px;font-family:Arial;color:white; text-decoration:none; letter-spacing:2px;margin-bottom:10px;
+}
+
+
+#mainNav{
+	height:37px; background-color:#896b5d; padding:14px 40px 0px 40px;
+}
+
+#mainNav a{
+	font-size:11px;color:white;text-decoration:none; line-height:18px; font-family:Arial; letter-spacing:2px; margin-right:40px;padding-bottom:5px;
+}
+
+#mainNav a:hover{
+	border-bottom:1px solid white;
+}
+
+
+#linkCatalogo {
+    float: right;
+    margin-right: 0;
+    margin:2px 0px 0px 0px;
+    position: relative;
+    width: 192px;  
+    text-align:right;  }
+    
+#linkCatalogo img {
+	position:absolute;top:1px;left:10px;
+}
+
+#linkCatalogo a {
+ margin:0px
+	}
+
+
+#subNav{
+	 background-color: #F2DAAA;/* bd974c / C29846  */
+    height: 27px;
+    padding: 8px 40px 0;}
+	
+#subNav a{
+	    color: #805E1B;
+    font-family: Arial;
+    font-size: 12px;
+    letter-spacing: 2px;
+    line-height: 18px;
+    margin-right: 7%;
+    text-decoration: none;
+
+
+}
+
+#mainContent{
+	margin:0px 0px 0px 0px;font-family:Arial;
+}
+
+#footer{
+	height:45px; background-color:#896B5D;
+}
+
+#vytee{
+	
+}
+		
+#footerContent{
+	padding:12px 40px 0px 40px;
+}
+
+#contactInfoFooter{
+	float:left;
+}
+			
+#contactInfoFooter p{
+	font-size:11px;color:white;text-decoration:none; line-height:18px; font-family:Arial; letter-spacing:2px; display:inline;
+
+}
+			
+p#telefonoFooter{
+	font-size:11px;color:white;text-decoration:none; line-height:18px; font-family:Arial; letter-spacing:2px; padding-right:10px;margin-right:10px; border-right:1px solid white;
+
+}
+
+#mainNavFooter{
+	float:right;margin-right:4%;
+}
+
+#mainNavFooter a{
+	font-size:11px;color:white;text-decoration:none; line-height:18px; font-family:Arial; letter-spacing:2px; display:inline;
+
+}
+
+#companyCopyright{
+	float:right; 
+}
+
+
+#companyCopyright p{
+	color:white;margin:2px 0px 0px 0px; font-family:Arial;
+}
+
+
+/* ESTOS son los estilos de la pagina HOME */
+
+#banner {
+	width:730px;height:439px;float:left;
+}
+
+#banner #slider ul.slides li img {
+    width:730px;height:439px;
+}
+
+
+#materiasPrimas {
+	width:270px;height:439px;float:right; text-align:right;
+}
+
+#materiasPrimas p{
+	padding:5px 5px 15px 0px; font-family:Arial; color:#3f3f3f; font-size:13px;
+}
+
+#mainContentBottom {
+	margin:10px 0px 10px 0px; background-color:#E8D0A0;padding-bottom:20px;
+}
+
+#mainContentBottom h1 {
+	 border-bottom: 1px solid gray;
+    font-family: Arial;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    padding: 10px 8px 6px 0px;
+    margin:0px 20px 10px 20px;
+    color:#3f3f3f;}
+
+
+#mainAcercaDe {
+	width: 500px;float:left; 
+}
+
+#mainAcercaDe p{
+	color: #3F3F3F;
+    font-family: Arial;
+    font-size: 14px;
+    padding: 10px 20px 0;
+    text-align: justify;
+    color:#3f3f3f;}
+
+
+#mainVisiteNuestroCatalogo {
+	width: 500px;float:right;
+}
+			
+/* Estos son los estilos de la seccion Nosotros */
+
+#paddingContent {
+	padding:10px 40px 20px 40px ;
+	background-color:#FFF4DB;
+	border-top:1px solid #896B5D;
+}
+
+#paddingContent h1 {
+	  border-bottom: 1px solid #C7A087;
+    color: #896B5D;
+    font-size: 30px;
+    margin-bottom: 10px;
+    padding: 0 0 10px;
+    }
+
+#paddingContent h2 {
+	   border-bottom: 1px solid #A68571;
+    color: #896B5D;
+    font-size: 17px;
+    margin: 0 0 20px;
+    padding: 0 0 5px;}
+
+
+#paddingContent p {
+	
+	text-align:justify;
+    font-size: 14px;
+  	line-height:18px;
+    margin-bottom:10px;
+    color:#291F0B /* #454545 */
+    }
+    
+#paddingContent a {
+	font-size: 14px;
+  	line-height:18px;
+    margin-bottom:10px;
+    color:#291F0B ;/* #454545 */
+	text-decoration:none;
+    }
+
+
+#quienesSomosTexto {
+	width:48%; float:left;
+}
+
+#imagenesQuienesSomos {
+	width:52%;float:left; text-align:center;
+}
+
+#imagenesQuienesSomos img{
+	margin-top: 5px;	}
+
+				
+/* Estos son los estilos de la seccion Materiales */
+
+.material {
+	margin:40px 0px 20px 0px;
+
+}
+
+.material h2 {
+border-bottom: 1px solid #C7A087;
+    color: #896B5D;
+    font-size: 17px;
+    margin: 20px 0 20px;
+    padding: 0 0 5px;}
+
+material div p {
+	
+}
+
+#descripcionAlgodon {
+	width:440px;float:left; height:223px;background-image:url('../img/imagenesAlgodonDesat.png'); background-repeat:no-repeat;
+	background-position:bottom center;
+
+}
+
+#descripcionAlpaca {
+	width:440px;float:left; height:223px;background-image:url('../img/imagenesAlpaca.png'); background-repeat:no-repeat;
+	background-position:bottom center;
+}
+
+#descripcionAlpaca p, #descripcionAlgodon p{
+	font-size:13px;
+}
+
+
+#videoAlgodon, #videoAlpaca{
+	float: right;
+    width: 50%;
+}
+
+/* Estos son los estilos de Contactenos */
+
+form#contacto {
+	width:50%; float:left;
+}
+
+form#contacto .campo p{
+	 margin-right: 10px;
+    text-align: left;
+    width: 155px;    }
+
+form#contacto .campo input{
+    width: 280px;
+    }
+
+#contactInfo {
+	float: right;
+    padding: 0 20px;
+    width: 45%;
+}
+
+#contactInfo p{
+	color: #896B5D;
+    font-size: 24px;
+    margin: 20px 0 0 15px;
+    text-align: right;}
+
+#contactInfo .campo img{
+	margin:5px 0px 0px 32px;
+	
+}
+
+/* ESTILOS DEL CATALOGO MADAFAKA */
+
+#navVerticalCatalogo {
+	background-color: #E8D0A0;
+    width: 19%;
+    float:left;}
+
+#navVerticalCatalogo a{
+    border: 1px solid #FFDF9E;
+    border-right-color: #896B5D;
+    border-bottom-color: #896B5D;
+    color: #684839;
+    display: block;
+    font-size: 15px;
+    padding: 9px;
+    text-decoration: none;
+    margin-bottom:0px;
+    letter-spacing:2PX;}
+    
+#navVerticalCatalogo a:hover{
+	border-bottom: 1px solid #896B5D;
+    border-right: 1px solid #896B5D;
+    border-top: 1px solid #FFDF9E;
+    border-left: 1px solid #FFDF9E;
+    background-color: #EBC478;
+    display: block;
+    font-size: 15px;
+    padding: 9px;
+    text-decoration: none;
+    margin-bottom:0px;}
+
+#catalogo {
+	float:right;width:79%;
+}
+
+#catalogo p.productoGeneral {
+	 background-color: #EBC478;
+    border-color: #FFDF9E #896B5D #896B5D #FFDF9E;
+    border-style: solid;
+    border-width: 1px;
+    color: #6F5343;
+    display: block;
+    font-size: 35px;
+    padding: 9px;
+    text-align: right;}
+
+#catalogo .producto {
+	 border-bottom: 1px solid #C4AA76;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position:relative;
+}
+
+#catalogo .producto .infoProducto {
+	float: left;
+    margin-left: 10px;
+    width: 66%;
+}
+
+#catalogo .producto img.fotoProducto {
+	display:block;float:left; width:32%;
+}
+
+#catalogo .producto .infoProducto p.tituloProducto{
+	font-size:17px;float:left;
+}
+
+#catalogo .producto .infoProducto p.codigoProducto{
+	font-size:17px;float:right;
+}
+
+#catalogo .producto .infoProducto p.descripcionProducto{
+	font-size:14px;float:left;
+}
+
+#catalogo .producto .infoProducto .item .itemProducto{
+	float:left;
+}
+
+#catalogo .producto .infoProducto .item .precioItem{
+	float:right;
+}
+
+p.precioTotalProducto  {
+	float:left;font-size:18px; font-weight:bold; margin:10px 10px 0px 0px; 
+}
+						
+p.precioTotalProductoNumero  {
+	float:right;font-size:18px; font-weight:bold; margin-top:10px; 
+}
+
+.logInModificarProducto p {
+	background-color: #EBC478;
+    border-color: #FFDF9E #896B5D #896B5D #FFDF9E;
+    border-style: solid;
+    border-width: 1px;
+    color: #6F5343;
+    display: block;
+    font-size: 20px;
+    left: 0;
+    padding: 5px;
+    position: absolute;
+    text-align: right;
+    top: 0;}
+
+.logInEliminarProducto p {
+	 background-color: #ED7E5C;
+    border-color: #FFDF9E #896B5D #896B5D #FFDF9E;
+    border-style: solid;
+    border-width: 1px;
+    color: #6F5343;
+    display: block;
+    font-size: 20px;
+    left: 69px;
+    padding: 5px;
+    position: absolute;
+    text-align: right;
+    top: 0;}
+
+a.anadirOrdenCompra {
+	background-color:#896B5D; padding:5px; color:white; text-decoration:none;letter-spacing:2px;
+}
+
+a.anadirOrdenCompra:hover {
+	background-color:#AD6E50; padding:5px; color:;text-decoration:none; border-top:1px solid #E8936B; border-right:1px solid #523325;border-bottom:1px solid #523325; border-left:1px solid #E8936B;
+}
+
+
+/* Estos son los estilos del Login */
+
+#loginBox {
+	margin: 30px 0 150px;
+    width: 315px;
+}
+
+#loginBox .campo {
+	float: left;
+}
+
+#loginBox .campo p{
+	float: left;
+    width: 100px;}
+
+#loginBox .campo input{
+	width:200px;}
+
+/* Estos son los estilos de OFERTAS */
+
+#ofertasContent {
+	font-size:20px;
+}
+
+#ofertasContent p {
+	color: #4F3D35;
+    font-size: 20px;}
+
+
+.oferta {
+	 background-color: #FFE9BD;
+    border-color: #FFDF9E #896B5D #896B5D #FFDF9E;
+    border-style: solid;
+    border-width: 1px;
+    color: #6F5343;
+    display: block;
+    margin: 10px 0;
+    padding: 20px;
+    position:relative;}
+
+.imagenYprecioOferta {
+	width:32%; float:right;
+}
+
+.imagenOferta {
+	width:100%; float:right;
+}
+
+
+.infoOferta {
+	width:66%; float:left;
+}
+
+p.tituloOferta {
+	float:left; font-size:20px;
+}
+
+p.codigoOferta {
+	float:right;
+}
+		
+#ofertasContent .oferta .infoOferta p.descripcionOferta {
+	font-size:14px;
+}
+		
+		
+p.descripcionOferta {
+	
+}
+				
+.itemOferta {
+	
+}
+
+#ofertasContent .oferta .infoOferta .itemOferta p{
+	font-size:16px;
+}
+
+p.nombreItemOferta	 {
+	float:left;
+}
+			
+p.precioItemOferta  {
+	float:right;
+}
+
+p.precioTotalOferta  {
+	float:left;font-size:18px; font-weight:bold; margin-top:10px; 
+}
+						
+p.precioTotalOfertaNumero  {
+	float:right;font-size:18px; font-weight:bold; margin-top:10px; 
+}
+
+.logInModificarOferta p {
+	background-color: #EBC478;
+    border-color: #FFDF9E #896B5D #896B5D #FFDF9E;
+    border-style: solid;
+    border-width: 1px;
+    color: #6F5343;
+    display: block;
+    font-size: 15px;
+    padding: 5px;
+    position: absolute;
+    right: 84px;
+    text-align: right;
+    top: 0;
+}
+
+.logInEliminarOferta p {
+	position:absolute;top:0px; right:-1px;
+	background-color: #ED7E5C;
+    border-color: #FFDF9E #896B5D #896B5D #FFDF9E;
+    border-style: solid;
+    border-width: 1px;
+    color: #6F5343;
+    display: block;
+    font-size: 15px;
+    padding: 5px;
+    text-align: right;
+    display:display;
+}
+
+/* ESTOS SON LOS ESTILOS DEL DASHBOARD */
+
+#dashboardContent {
+	height: 300px;
+    margin: 0px 0 0;
+    padding: 0 40px;}
+
+#dashboardContent a{
+	background-color: #E8D0A0;
+    border-color: #FFDF9E #896B5D #896B5D #FFDF9E;
+    border-style: solid;
+    border-width: 1px;
+    color: #684839;
+    display: inline;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin: 0 20px 0 20px;
+    padding: 9px;
+    text-decoration: none;
+    width: 285px;
+}
+
+#dashboardContent a:hover{
+	 background-color:#EBC478;
+    border-color: #FFDF9E #896B5D #896B5D #FFDF9E;
+    border-style: solid;
+    border-width: 1px;
+    color: #684839;
+    display: inline;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin: 0 20px 0 20px;
+    padding: 9px;
+    text-decoration: none;
+    width: 285px;   
+}
+
+/* Estos son los estilos de la gestion de INF de Contacto */
+
+#dashboardContentContacto {
+	height: 300px;
+    margin: 0px 0 0;
+    padding: 0 40px;}
+    
+#dashboardContentContacto .campo {
+	margin:20px 0px;}
+
+#dashboardContentContacto .campo p{
+	font-size: 16px;
+    width: 220px;
+    color:#684839;}
+    
+#dashboardContentContacto .campo input{
+	font-size: 16px;
+    width: 220px;
+    color:#684839;}
+
+/* Estos son los estilos de la gestion de Ofertas */
+
+
+#dashboardContentNuevaOferta {
+    margin: 0px 0 0;
+    padding: 0 40px 20px 40px;}
+
+#dashboardContentNuevaOferta .campo {
+	margin:10px 0px;}
+
+#dashboardContentNuevaOferta .campo p{
+	color: #684839;
+    font-size: 16px;
+    margin-right: 5px;
+    text-align: right;
+    width: 140px;}
+    
+#dashboardContentNuevaOferta .campo input{
+	color: #684839;
+    font-size: 14px;
+    width: 220px;}
+
+#dashboardContentNuevaOferta .campo input[type=radio]{
+	color: #684839;
+    font-size: 14px;
+    width: 20px;}
+
+
+.columnaIzquierdaNuevaOferta {
+	width:50%;float:left;
+}
+
+.columnaDerechaNuevaOferta {
+	width:50%;float:right;
+}
+
+.faltaAlgunCampo {
+	
+}
+
+.item {
+	position:relative;
+}
+
+.eliminarItem{
+	position: absolute;
+    right: -5px;
+    top: 5px;}
+
+.eliminarItem input[type=checkbox]{
+	margin-left:38px;
+}
+
+
+p.itemNuevaOferta {
+	
+}
+
+p.precioItemNuevaOferta {
+	
+}
+
+/* ESTILOS DE ORDEN DE COMPRA */
+
+#itemsOrdenDeCompra {
+	width:100%; height:300px;overflow-y:scroll;
+}
+
+#cabeceraItemsOrdenDecompra {
+	
+}
+
+#cabeceraItemsOrdenDecompra p{
+	width:19.85%; background-color:#896B5D;color:white; border-right:0.5px solid white;padding:5px 0px 5px 0px;
+	text-align:center;
+	}
+
+
+.filaDatosProductoOrdenDeCompra {
+	
+}
+
+#paddingContent #itemsOrdenDeCompra .filaDatosProductoOrdenDeCompra p , .filaDatosProductoOrdenDeCompra select{
+	width:19.85%;float:left;border-right:0.5px solid transparent;text-align:center;
+}
+
+.filaDatosProductoOrdenDeCompra select{
+	width:16.88%;float:left;border-right:0.5px solid transparent;text-align:center;
+}
+
+
+form#datosClienteOrdenDeCompra {
+    width: 100%; position:relative;
+}
+
+form#datosClienteOrdenDeCompra .campo p {
+	 margin: 0 10px 15px 0;
+    text-align: right;
+    width: 32%;}
+
+form#datosClienteOrdenDeCompra .campo input {
+	width: 32%;}
+	
+#enviarOrden {
+	position: absolute;
+    right: 0%;
+    top: 25%;}
