@@ -6,7 +6,7 @@ p.error {
 	margin-top:10px;
 	background-color:#ED7E5C;
 	color:white;
-	padding:5px;
+    padding: 5px 0px 5px 10px;
 	border-top:1px solid #FFB39C; 
 	border-right:1px solid #896B5D; 
 	border-bottom:1px solid #896B5D; 
@@ -227,6 +227,7 @@ p#telefonoFooter{
 	padding:10px 40px 20px 40px ;
 	background-color:#FFF4DB;
 	border-top:1px solid #896B5D;
+    position:relative;
 }
 
 #paddingContent h1 {
@@ -602,18 +603,18 @@ p.precioTotalOfertaNumero  {
 #dashboardContent {
 	height: 300px;
     margin: 0px 0 0;
-    padding: 0 40px;}
+    padding: 0px;
+}
 
 #dashboardContent a{
 	background-color: #E8D0A0;
     border-color: #FFDF9E #896B5D #896B5D #FFDF9E;
     border-style: solid;
-    border-width: 1px;
+    border-width: 0px;
     color: #684839;
     display: inline;
     font-size: 15px;
     letter-spacing: 1px;
-    margin: 0 20px 0 20px;
     padding: 9px;
     text-decoration: none;
     width: 285px;
@@ -628,11 +629,39 @@ p.precioTotalOfertaNumero  {
     display: inline;
     font-size: 15px;
     letter-spacing: 1px;
-    margin: 0 20px 0 20px;
     padding: 9px;
     text-decoration: none;
     width: 285px;   
 }
+
+
+#usersettings {
+    position: absolute;
+    top: 7px;
+    right: 40px;
+    background-image: url("../img/icono-config.png");
+    background-position: center left;
+    background-repeat: no-repeat;
+    padding: 10px 0px 10px 35px;
+}
+
+#usersettings a {
+    padding: 3px;
+    font-size: 12px;
+    background-color: #969696;
+    color: white;
+}
+
+#usersettings a:hover{
+    padding:3px;
+    font-size:12px;
+    background-color:#848A99;
+    color:white
+}
+
+
+.fila {
+    padding: 15px 0px}
 
 /* Estos son los estilos de la gestion de INF de Contacto */
 
