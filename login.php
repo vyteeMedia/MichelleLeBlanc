@@ -20,7 +20,7 @@
 		<img src="recursos/img/tituloLogo2.png" />
 		</div>
 		<div id="languajeNav">
-			<a href="login.html">Login</a>
+			<a href="login.php">Login</a>
 			<a href="">Español</a>
 			<a href="">English</a>
 			<a href="">Francais</a>
@@ -41,7 +41,7 @@
 	</div>
 	
 	<div id="subNav">
-		<a href="">Sabanas</a>
+		<a href="">Sábanas</a>
 		<a href="">Toallas</a>
 		<a href="">Salidas de Baño</a>
 		<a href="">Manteles</a>
@@ -54,18 +54,35 @@
 	<!-- #BeginEditable "Contenido principal" -->
 	
 	<div id="paddingContent">
-        <div id="usersettings">
-            <a href="dashboard.html">(Regresar al Panel de control)</a>
-            <a href="#">(Cerrar Sesiòn)</a>
-        </div>
-		<h1>Panel de Control</h1>
-		<div id="dashboardContent">
-			<div class="fila">
-                <h2>Seleccione que seccion de la web desea modificar</h2>
-				<a href="gestion-catalogo.html">Gestionar catalogo online</a>
-				<a href="gestion-ofertas.html">Gestionar pagina de ofertas</a>
-				<a href="gestion-contacto.html">Gestionar informacion de contacto</a>
-			</div>
+		<h1>Iniciar Sesion</h1>
+		<div id="loginBox">
+			<form method="post" action="verify.php">
+				<div class="campo">
+					<p>Usuario</p><input type="text" name="user" />
+					<div class="clear"></div>
+				</div>
+				<div class="campo">
+					<p>Contraseña</p><input type="password" name= "pass"/>
+					<div class="clear"></div>
+				</div>
+				<div class="campo">
+					<button type="submit" style="float:right;margin-right:9px;" name="enviar" id="enviar">ingresar</button>
+				</div>
+
+                <?php
+                include("getVarGET.php");
+                if(isset($q) && $q=="error"){
+                    echo '
+                        <div class="campo" id="errorBox">
+                            <p class="error" style="width:294px;color:white;">
+                                Usuario o contraseña incorrectos.<br /> Ingrese de nuevo la informacion.
+                            </p>
+                        </div>
+                    ';
+                }
+                ?>
+				<div class="clear"></div>
+			</form>
 		</div>
 	</div>
 	
@@ -77,7 +94,7 @@
 		</div>
 		<div id="footerContent">
 			<div id="contactInfoFooter">
-				<p id="telefonoFooter">telefono:998 584 445</p>
+				<p id="telefonoFooter">Teléfono:998 584 445</p>
 				<p>info@michelleleblanc.com</p>
 			</div>
 			<div id="companyCopyright">
